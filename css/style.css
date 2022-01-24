@@ -9,3 +9,11 @@
 /* --- LINK FONT --- */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap');
 
+
+/* --- GLOBAL PROPERTIES --- */
+html,body{
+    background-color: #3366cc; 
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fafafa;
+    height: 100vh;
+}
