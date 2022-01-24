@@ -17,3 +17,34 @@ html,body{
     color: #fafafa;
     height: 100vh;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 5vh 0;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.containerCoin{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+.launchCoin{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #adc1eb;
+    color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,0.05);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 2vh 5vh;
+    font-size: 2vh;
+    width: 10vw;
+}
