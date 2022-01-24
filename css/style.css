@@ -38,13 +38,17 @@ html,body{
     justify-content: center;
 }
 button{
-    background-color: #adc1eb;
+    background-color: #6f92dc;
     color: #fff;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,0.05);
     border: none;
     text-align: center;
     text-decoration: none;
     padding: 2vh 5vh;
-    font-size: 2vh;
-    width: 10vw;
+    font-size: 2vw;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    background-color: #adc1eb;
+    
 }
