@@ -23,7 +23,7 @@ html,body{
     width: 25vw;
     background-color: #fff;
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
-    border-radius: 2vw;
+    border-radius: 1vw;
 }
 .title{
     display: flex;
@@ -32,12 +32,12 @@ html,body{
     font-size: 1vw;
     font-weight: 600;
 }
-.containerCoin{
+.coin{
     display: flex;
     justify-content: center;
     height: 30vh;
 }
-.launchCoin{
+.buttons{
     display: flex;
     padding: 5vh 0;
     justify-content: center;
