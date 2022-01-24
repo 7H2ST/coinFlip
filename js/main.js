@@ -2,7 +2,7 @@
 
 function flip(){
     f=Math.random();
-    aff=document.getElementsByClassName("containerCoin");
+    aff=document.getElementById("containerCoin");
     if (f<0.5){
         console.log("pile");
         aff.innerHTML="pile";
