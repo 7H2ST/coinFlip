@@ -14,27 +14,32 @@
 html,body{
     background-color: #3366cc; 
     font-family: 'Space Grotesk', sans-serif;
-    color: #fafafa;
+    color: #adc1eb;
     height: 100vh;
 }
 .container{
     display: flex;
     flex-direction: column;
+    width: 25vw;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    border-radius: 2vw;
 }
 .title{
     display: flex;
     justify-content: center;
     padding: 5vh 0;
-    font-size: 3vw;
+    font-size: 1vw;
     font-weight: 600;
 }
 .containerCoin{
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 30vh;
 }
 .launchCoin{
     display: flex;
+    padding: 5vh 0;
     justify-content: center;
 }
 button{
@@ -42,10 +47,11 @@ button{
     color: #fff;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 20px 0 rgba(0,0,0,0.05);
     border: none;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
-    padding: 2vh 5vh;
-    font-size: 2vw;
+    padding: 1rem 2rem;
+    font-size: 1rem;
     transition: all 0.2s ease-in-out;
 }
 button:hover{
