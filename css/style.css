@@ -23,7 +23,7 @@ html,body{
 }
 .container{
     background-color: #ffffff;
-    width: 400px;
+    width: 30vw;
     padding: 50px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -94,17 +94,8 @@ button{
     padding: 1rem 2rem;
     font-size: 1rem;
     transition: all 0.2s ease-in-out;
+    font-family: 'Space Grotesk', sans-serif;
 }
 button:hover{
     background-color: #adc1eb;
-    
-}
-#flip-button{
-    background-color: #424ae0;
-    color: #ffffff;
-}
-#flip-button:disabled{
-    background-color: #e1e0ee;
-    border-color: #e1e0ee;
-    color: #101020;
 }
