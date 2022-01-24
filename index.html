@@ -12,13 +12,20 @@
 <body>
     <div class="container">
         <div class="title">
-            <h1>Lancez votre pièce !</h1>
+            <h1>Lancez votre piece !</h1>
         </div>
-        <div class="containerCoin" id="containerCoin">
-
+        <div class="coin" id="coin">
+            <div class="heads">
+                <img src="heads.svg">
+            </div>
+            <div class="tails">
+                <img src="tails.svg">
+            </div>
         </div>
-        <div class="launchCoin">
-            <button onclick="flip();">Flip coin</button>
+        <div class="buttons">
+            <button id="flip-button">
+                Flip Coin
+            </button>
         </div>
     </div>
     <script src="js/main.js"></script>
