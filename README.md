@@ -19,7 +19,7 @@
 
 # Introduction :
 
-    > Nous avons eu l’idée de créer une page web qui simule un lancer de pièce et nous retourne pile ou face. 
+> Nous avons eu l’idée de créer une page web qui simule un lancer de pièce et nous retourne pile ou face. 
 
 
 # Organisation :
