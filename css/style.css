@@ -99,3 +99,15 @@ button{
 button:hover{
     background-color: #adc1eb;
 }
+
+/* --- MEDIA QUERIES --- */
+
+@media screen and (max-width:767px){
+    .container{
+        width: 70vw;
+        padding: 0;
+    }
+    .title{
+        font-size: 3vw;
+    }
+}
