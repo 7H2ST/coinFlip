@@ -33,13 +33,3 @@ Pendant ce temps Théo est intervenu sur la partie design d’interface de la si
 # Difficultés
 La difficulté principale que nous avons rencontré lors de notre projet a été la gestion et résolution de conflit lors de différents “git push”.
 Nous avons résolu la majorité des problèmes via l’interface graphique proposé par VSCode.
-
-## Using Lighthouse in Chrome DevTools
-
-Lighthouse is integrated directly into the Chrome DevTools, under the "Lighthouse" panel.
-
-**Installation**: install [Chrome](https://www.google.com/chrome/browser).
-
-**Run it**: open Chrome DevTools, select the Lighthouse panel, and hit "Generate report".
-
-<img src="https://raw.githubusercontent.com/GoogleChrome/lighthouse/4dbab6bf5466e7220980bccd2f5883f4ad661725/assets/example_dev_tools.png" alt="Lighthouse integration in Chrome DevTools" width="500px">
